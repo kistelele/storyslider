@@ -4,6 +4,8 @@ body {
   background: -webkit-radial-gradient(circle, rgba(86,83,88,1) 0%, rgba(22,21,23,1) 100%);
   background: radial-gradient(circle, rgba(86,83,88,1) 0%, rgba(22,21,23,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#565358",endColorstr="#161517",GradientType=1);
+  overflow: hidden;
+  max-height: 100vh;
 }
 
 img {
